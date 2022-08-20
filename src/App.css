@@ -1,0 +1,16 @@
+.jumbtron {
+  background-color: #ff3f34;
+  color: #ffff;
+  padding: 50px 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.material-symbols-outlined {
+  font-size: 100px;
+}
+
+.col-md-auto{
+  margin: auto;
+ 
+}
