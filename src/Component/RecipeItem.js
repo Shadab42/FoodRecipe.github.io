@@ -5,7 +5,7 @@ const RecipeItem = (props) => {
   return (
       <div className='col-md-auto'>
     <div className='card py-auto text-center'>
-        <img src={image} className='img-fluid w-90 mx-auto'/>
+        <img src={image} className='img-fluid w-20 mx-auto shape-square'/>
         <div className='card-body'>
             <h5>{name}</h5>
 
@@ -16,6 +16,9 @@ const RecipeItem = (props) => {
             ))}
 
         </ul>
+        <div>
+            
+        </div>
      </div>
      </div>
   )

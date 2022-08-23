@@ -12,7 +12,7 @@ const Header = (props) => {
         value={props.search} 
         onChange={props.onInputChange}/>
         <div className='input-group-append'>
-            <button className='btn btn-dark' onClick={props.onSearchClick}>Search Recipe</button>
+            <button className='btn btn-dark' onClick={props.onSearchClick}>Search</button>
       
              </div>
            </div>
