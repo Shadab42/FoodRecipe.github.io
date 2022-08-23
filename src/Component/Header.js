@@ -8,7 +8,7 @@ const Header = (props) => {
       <i className="material-symbols-outlined">fastfood</i> Food Recipe
       </h1>
       <div className="input-group w-50 mx-auto">
-        <input type="text" className="form-control" placeholder='search your fev recipe...' 
+        <input type="text" className="form-control" placeholder='search your fav recipe...' 
         value={props.search} 
         onChange={props.onInputChange}/>
         <div className='input-group-append'>
