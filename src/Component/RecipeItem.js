@@ -12,7 +12,7 @@ const RecipeItem = (props) => {
         </div>
         <ul className='list-group list-group-flush'>
             {ingredientLines.map(ingredient => (
-                <li className='list-group-item'>{ingredient}</li>
+                <li className='list-group-item' key={Math.random()*100}>{ingredient}</li>
             ))}
 
         </ul>
